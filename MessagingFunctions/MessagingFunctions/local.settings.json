@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=functionexamplestorage;AccountKey=W/aSEYTzVt/73fjg5e8F7pZOAsZmMaXiwRVimggkHlG+Z1GReo2cjAy56tWzxBeerGVKP8dDshB1Dzv4pxw/ew==;BlobEndpoint=https://functionexamplestorage.blob.core.windows.net/;QueueEndpoint=https://functionexamplestorage.queue.core.windows.net/;TableEndpoint=https://functionexamplestorage.table.core.windows.net/;FileEndpoint=https://functionexamplestorage.file.core.windows.net/;",
+    "BlobStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=functionexamplestorage;AccountKey=W/aSEYTzVt/73fjg5e8F7pZOAsZmMaXiwRVimggkHlG+Z1GReo2cjAy56tWzxBeerGVKP8dDshB1Dzv4pxw/ew==;BlobEndpoint=https://functionexamplestorage.blob.core.windows.net/;QueueEndpoint=https://functionexamplestorage.queue.core.windows.net/;TableEndpoint=https://functionexamplestorage.table.core.windows.net/;FileEndpoint=https://functionexamplestorage.file.core.windows.net/;",
+    "MyBlobContainer": "documents",
+    "QueueName": "testingqueue",
+    "AzureWebJobsServicebus": "Endpoint=sb://testingfunctionslm.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=g5MjI0LyC6AujsJ+9e/JksXiyPoYFkIp1Z/wpoRbIyk=",
+    "SqlConnectionString": "Server=MININT-A34ELVQ;Database=TestingDevelopment;User Id=sa;Password=Connie85;Trusted_Connection=True;"
+  }
+}
