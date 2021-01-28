@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="WebOrchestrationProcessCloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="6" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebOrchestrationProcess">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="DirectoryPath" value="C:\Users\lealfaro\Desktop\TestFunctions" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=functionexamplestorage;AccountKey=W/aSEYTzVt/73fjg5e8F7pZOAsZmMaXiwRVimggkHlG+Z1GReo2cjAy56tWzxBeerGVKP8dDshB1Dzv4pxw/ew==;BlobEndpoint=https://functionexamplestorage.blob.core.windows.net/;QueueEndpoint=https://functionexamplestorage.queue.core.windows.net/;TableEndpoint=https://functionexamplestorage.table.core.windows.net/;FileEndpoint=https://functionexamplestorage.file.core.windows.net/;" />
+      <Setting name="BlobName" value="documents" />
+      <Setting name="DirectoryPathProcesados" value="C:\Users\lealfaro\Desktop\TestFunctions\Procesados" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="e14f60e8-db8f-4bc9-a3b6-f0232996775e" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
